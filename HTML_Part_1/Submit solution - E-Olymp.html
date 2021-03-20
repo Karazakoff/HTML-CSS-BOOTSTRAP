@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html class="mdl-js"><grammarly-extension data-grammarly-shadow-root="true" style="position: absolute; top: 0px; left: 0px; pointer-events: none;" class="cGcvT"></grammarly-extension><head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="icon" href="https://www.e-olymp.com/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="https://www.e-olymp.com/favicon.ico" type="image/x-icon">
+        <title>Submit solution - E-Olymp</title>
+            <link href="Submit%20solution%20-%20E-Olymp_files/app.css" rel="stylesheet">
+    <link href="Submit%20solution%20-%20E-Olymp_files/icon.css" rel="stylesheet">
+    <link href="Submit%20solution%20-%20E-Olymp_files/css2.css" rel="stylesheet">
+    <link href="Submit%20solution%20-%20E-Olymp_files/css2_002.css" rel="stylesheet">
+    <link rel="stylesheet" href="Submit%20solution%20-%20E-Olymp_files/katex.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+                        <script type="text/javascript" async="" src="Submit%20solution%20-%20E-Olymp_files/js.js"></script><script async="" src="Submit%20solution%20-%20E-Olymp_files/gtm.js"></script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer',"GTM-TBQD4HL");</script>
+        <style type="text/css">.CtxtMenu_InfoClose {  top:.2em; right:.2em;}
+.CtxtMenu_InfoContent {  overflow:auto; text-align:left; font-size:80%;  padding:.4em .6em; border:1px inset; margin:1em 0px;  max-height:20em; max-width:30em; background-color:#EEEEEE;  white-space:normal;}
+.CtxtMenu_Info.CtxtMenu_MousePost {outline:none;}
+.CtxtMenu_Info {  position:fixed; left:50%; width:auto; text-align:center;  border:3px outset; padding:1em 2em; background-color:#DDDDDD;  color:black;  cursor:default; font-family:message-box; font-size:120%;  font-style:normal; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 15px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius:15px;               /* Safari and Chrome */  -moz-border-radius:15px;                  /* Firefox */  -khtml-border-radius:15px;                /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */  filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color="gray", Positive="true"); /* IE */}
+</style><style type="text/css">.CtxtMenu_MenuClose {  position:absolute;  cursor:pointer;  display:inline-block;  border:2px solid #AAA;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  font-family: "Courier New", Courier;  font-size:24px;  color:#F0F0F0}
+.CtxtMenu_MenuClose span {  display:block; background-color:#AAA; border:1.5px solid;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  line-height:0;  padding:8px 0 6px     /* may need to be browser-specific */}
+.CtxtMenu_MenuClose:hover {  color:white!important;  border:2px solid #CCC!important}
+.CtxtMenu_MenuClose:hover span {  background-color:#CCC!important}
+.CtxtMenu_MenuClose:hover:focus {  outline:none}
+</style><style type="text/css">.CtxtMenu_Menu {  position:absolute;  background-color:white;  color:black;  width:auto; padding:5px 0px;  border:1px solid #CCCCCC; margin:0; cursor:default;  font: menu; text-align:left; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 5px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius: 5px;             /* Safari and Chrome */  -moz-border-radius: 5px;                /* Firefox */  -khtml-border-radius: 5px;              /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */}
+.CtxtMenu_MenuItem {  padding: 1px 2em;  background:transparent;}
+.CtxtMenu_MenuArrow {  position:absolute; right:.5em; padding-top:.25em; color:#666666;  font-family: null; font-size: .75em}
+.CtxtMenu_MenuActive .CtxtMenu_MenuArrow {color:white}
+.CtxtMenu_MenuArrow.CtxtMenu_RTL {left:.5em; right:auto}
+.CtxtMenu_MenuCheck {  position:absolute; left:.7em;  font-family: null}
+.CtxtMenu_MenuCheck.CtxtMenu_RTL { right:.7em; left:auto }
+.CtxtMenu_MenuRadioCheck {  position:absolute; left: .7em;}
+.CtxtMenu_MenuRadioCheck.CtxtMenu_RTL {  right: .7em; left:auto}
+.CtxtMenu_MenuInputBox {  padding-left: 1em; right:.5em; color:#666666;  font-family: null;}
+.CtxtMenu_MenuInputBox.CtxtMenu_RTL {  left: .1em;}
+.CtxtMenu_MenuComboBox {  left:.1em; padding-bottom:.5em;}
+.CtxtMenu_MenuSlider {  left: .1em;}
+.CtxtMenu_SliderValue {  position:absolute; right:.1em; padding-top:.25em; color:#333333;  font-size: .75em}
+.CtxtMenu_SliderBar {  outline: none; background: #d3d3d3}
+.CtxtMenu_MenuLabel {  padding: 1px 2em 3px 1.33em;  font-style:italic}
+.CtxtMenu_MenuRule {  border-top: 1px solid #DDDDDD;  margin: 4px 3px;}
+.CtxtMenu_MenuDisabled {  color:GrayText}
+.CtxtMenu_MenuActive {  background-color: #606872;  color: white;}
+.CtxtMenu_MenuDisabled:focus {  background-color: #E8E8E8}
+.CtxtMenu_MenuLabel:focus {  background-color: #E8E8E8}
+.CtxtMenu_ContextMenu:focus {  outline:none}
+.CtxtMenu_ContextMenu .CtxtMenu_MenuItem:focus {  outline:none}
+.CtxtMenu_SelectionMenu {  position:relative; float:left;  border-bottom: none; -webkit-box-shadow:none; -webkit-border-radius:0px; }
+.CtxtMenu_SelectionItem {  padding-right: 1em;}
+.CtxtMenu_Selection {  right: 40%; width:50%; }
+.CtxtMenu_SelectionBox {  padding: 0em; max-height:20em; max-width: none;  background-color:#FFFFFF;}
+.CtxtMenu_SelectionDivider {  clear: both; border-top: 2px solid #000000;}
+.CtxtMenu_Menu .CtxtMenu_MenuClose {  top:-10px; left:-10px}
+</style><style id="MJX-CHTML-styles">
+mjx-container[jax="CHTML"] {
+  line-height: 0;
+}
+
+mjx-container [space="1"] {
+  margin-left: .111em;
+}
+
+mjx-container [space="2"] {
+  margin-left: .167em;
+}
+
+mjx-container [space="3"] {
+  margin-left: .222em;
+}
+
+mjx-container [space="4"] {
+  margin-left: .278em;
+}
+
+mjx-container [space="5"] {
+  margin-left: .333em;
+}
+
+mjx-container [rspace="1"] {
+  margin-right: .111em;
+}
+
+mjx-container [rspace="2"] {
+  margin-right: .167em;
+}
+
+mjx-container [rspace="3"] {
+  margin-right: .222em;
+}
+
+mjx-container [rspace="4"] {
+  margin-right: .278em;
+}
+
+mjx-container [rspace="5"] {
+  margin-right: .333em;
+}
+
+mjx-container [size="s"] {
+  font-size: 70.7%;
+}
+
+mjx-container [size="ss"] {
+  font-size: 50%;
+}
+
+mjx-container [size="Tn"] {
+  font-size: 60%;
+}
+
+mjx-container [size="sm"] {
+  font-size: 85%;
+}
+
+mjx-container [size="lg"] {
+  font-size: 120%;
+}
+
+mjx-container [size="Lg"] {
+  font-size: 144%;
+}
+
+mjx-container [size="LG"] {
+  font-size: 173%;
+}
+
+mjx-container [size="hg"] {
+  font-size: 207%;
+}
+
+mjx-container [size="HG"] {
+  font-size: 249%;
+}
+
+mjx-container [width="full"] {
+  width: 100%;
+}
+
+mjx-box {
+  display: inline-block;
+}
+
+mjx-block {
+  display: block;
+}
+
+mjx-itable {
+  display: inline-table;
+}
+
+mjx-row {
+  display: table-row;
+}
+
+mjx-row > * {
+  display: table-cell;
+}
+
+mjx-mtext {
+  display: inline-block;
+}
+
+mjx-mstyle {
+  display: inline-block;
+}
+
+mjx-merror {
+  display: inline-block;
+  color: red;
+  background-color: yellow;
+}
+
+mjx-mphantom {
+  visibility: hidden;
+}
+
+mjx-assistive-mml {
+  position: absolute !important;
+  top: 0px;
+  left: 0px;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 1px 0px 0px 0px !important;
+  border: 0px !important;
+  display: block !important;
+  width: auto !important;
+  overflow: hidden !important;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+mjx-assistive-mml[display="block"] {
+  width: 100% !important;
+}
+
+mjx-c::before {
+  display: block;
+  width: 0;
+}
+
+.MJX-TEX {
+  font-family: MJXZERO, MJXTEX;
+}
+
+.TEX-B {
+  font-family: MJXZERO, MJXTEX-B;
+}
+
+.TEX-I {
+  font-family: MJXZERO, MJXTEX-I;
+}
+
+.TEX-MI {
+  font-family: MJXZERO, MJXTEX-MI;
+}
+
+.TEX-BI {
+  font-family: MJXZERO, MJXTEX-BI;
+}
+
+.TEX-S1 {
+  font-family: MJXZERO, MJXTEX-S1;
+}
+
+.TEX-S2 {
+  font-family: MJXZERO, MJXTEX-S2;
+}
+
+.TEX-S3 {
+  font-family: MJXZERO, MJXTEX-S3;
+}
+
+.TEX-S4 {
+  font-family: MJXZERO, MJXTEX-S4;
+}
+
+.TEX-A {
+  font-family: MJXZERO, MJXTEX-A;
+}
+
+.TEX-C {
+  font-family: MJXZERO, MJXTEX-C;
+}
+
+.TEX-CB {
+  font-family: MJXZERO, MJXTEX-CB;
+}
+
+.TEX-FR {
+  font-family: MJXZERO, MJXTEX-FR;
+}
+
+.TEX-FRB {
+  font-family: MJXZERO, MJXTEX-FRB;
+}
+
+.TEX-SS {
+  font-family: MJXZERO, MJXTEX-SS;
+}
+
+.TEX-SSB {
+  font-family: MJXZERO, MJXTEX-SSB;
+}
+
+.TEX-SSI {
+  font-family: MJXZERO, MJXTEX-SSI;
+}
+
+.TEX-SC {
+  font-family: MJXZERO, MJXTEX-SC;
+}
+
+.TEX-T {
+  font-family: MJXZERO, MJXTEX-T;
+}
+
+.TEX-V {
+  font-family: MJXZERO, MJXTEX-V;
+}
+
+.TEX-VB {
+  font-family: MJXZERO, MJXTEX-VB;
+}
+
+mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
+  font-family: MJXZERO, MJXTEX-S1, MJXTEX-S4, MJXTEX, MJXTEX-A ! important;
+}
+
+@font-face /* 0 */ {
+  font-family: MJXZERO;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Zero.woff") format("woff");
+}
+
+@font-face /* 1 */ {
+  font-family: MJXTEX;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff") format("woff");
+}
+
+@font-face /* 2 */ {
+  font-family: MJXTEX-B;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Bold.woff") format("woff");
+}
+
+@font-face /* 3 */ {
+  font-family: MJXTEX-I;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff") format("woff");
+}
+
+@font-face /* 4 */ {
+  font-family: MJXTEX-MI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Italic.woff") format("woff");
+}
+
+@font-face /* 5 */ {
+  font-family: MJXTEX-BI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-BoldItalic.woff") format("woff");
+}
+
+@font-face /* 6 */ {
+  font-family: MJXTEX-S1;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff") format("woff");
+}
+
+@font-face /* 7 */ {
+  font-family: MJXTEX-S2;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff") format("woff");
+}
+
+@font-face /* 8 */ {
+  font-family: MJXTEX-S3;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff") format("woff");
+}
+
+@font-face /* 9 */ {
+  font-family: MJXTEX-S4;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff") format("woff");
+}
+
+@font-face /* 10 */ {
+  font-family: MJXTEX-A;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_AMS-Regular.woff") format("woff");
+}
+
+@font-face /* 11 */ {
+  font-family: MJXTEX-C;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Regular.woff") format("woff");
+}
+
+@font-face /* 12 */ {
+  font-family: MJXTEX-CB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Bold.woff") format("woff");
+}
+
+@font-face /* 13 */ {
+  font-family: MJXTEX-FR;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Regular.woff") format("woff");
+}
+
+@font-face /* 14 */ {
+  font-family: MJXTEX-FRB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Bold.woff") format("woff");
+}
+
+@font-face /* 15 */ {
+  font-family: MJXTEX-SS;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff") format("woff");
+}
+
+@font-face /* 16 */ {
+  font-family: MJXTEX-SSB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff") format("woff");
+}
+
+@font-face /* 17 */ {
+  font-family: MJXTEX-SSI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff") format("woff");
+}
+
+@font-face /* 18 */ {
+  font-family: MJXTEX-SC;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff") format("woff");
+}
+
+@font-face /* 19 */ {
+  font-family: MJXTEX-T;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff") format("woff");
+}
+
+@font-face /* 20 */ {
+  font-family: MJXTEX-V;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff") format("woff");
+}
+
+@font-face /* 21 */ {
+  font-family: MJXTEX-VB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff") format("woff");
+}
+</style></head>
+    <body class="eo-layout" data-new-gr-c-s-check-loaded="8.871.0" data-gr-ext-installed="" data-new-gr-c-s-loaded="8.871.0">
+    <header class="eo-header"><a class="eo-header__title" href="https://www.e-olymp.com/en/"><img src="Submit%20solution%20-%20E-Olymp_files/eolymp-inverse.png" alt="e-olymp"></a><nav class="eo-header__nav"><a href="https://www.e-olymp.com/en/problems" class="eo-header__link">Problems</a><a href="https://www.e-olymp.com/en/submissions" class="eo-header__link eo-header__link_active">Queue</a><a href="https://www.e-olymp.com/en/contests" class="eo-header__link">Competitions</a><a href="https://www.e-olymp.com/en/users/ranking" class="eo-header__link">Ranking</a><a href="https://www.e-olymp.com/en/groups/" class="eo-header__link">Groups</a><a href="https://www.e-olymp.com/en/blogs/" class="eo-header__link">Articles</a><a href="https://fund.e-olymp.com/" class="eo-header__link">Fund</a><a href="https://blog.e-olymp.com/" class="eo-header__link">Blog</a></nav><div class="eo-header__spacer"></div><nav class="eo-header__nav"><a href="https://www.e-olymp.com/en/users/Karazakoff" class="eo-header__link eo-header__link_darker" title="Profile"><i class="material-icons"></i></a><a href="https://www.e-olymp.com/en/submissions/submit" class="eo-header__link eo-header__link_darker" title="Submit solution"><i class="material-icons"></i></a><a href="https://www.e-olymp.com/en/settings/preferences" data-toggle="dropdown" class="eo-header__link eo-header__link_darker" id="user-preference-menu"><i class="material-icons"></i></a><div class="mdl-menu__container is-upgraded"><div class="mdl-menu__outline mdl-menu--bottom-right"></div><div class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect mdl-js-ripple-effect--ignore-events" for="user-preference-menu" data-upgraded=",MaterialMenu,MaterialRipple"><a class="mdl-menu__item mdl-js-ripple-effect" href="https://www.e-olymp.com/en/users/Karazakoff/submissions" tabindex="-1" data-upgraded=",MaterialRipple">My Solutions<span class="mdl-menu__item-ripple-container"><span class="mdl-ripple"></span></span></a><a class="mdl-menu__item mdl-js-ripple-effect" href="https://www.e-olymp.com/en/groups/" tabindex="-1" data-upgraded=",MaterialRipple">My Groups<span class="mdl-menu__item-ripple-container"><span class="mdl-ripple"></span></span></a><a class="mdl-menu__item mdl-js-ripple-effect" href="https://www.e-olymp.com/en/inmail/inbox" tabindex="-1" data-upgraded=",MaterialRipple">
+                            My Inbox
+                            
+                        <span class="mdl-menu__item-ripple-container"><span class="mdl-ripple"></span></span></a><a class="mdl-menu__item mdl-js-ripple-effect" href="https://www.e-olymp.com/en/settings/profile" tabindex="-1" data-upgraded=",MaterialRipple">Edit profile<span class="mdl-menu__item-ripple-container"><span class="mdl-ripple"></span></span></a><a class="mdl-menu__item mdl-js-ripple-effect" href="https://www.e-olymp.com/en/settings/preferences" tabindex="-1" data-upgraded=",MaterialRipple">Preferences<span class="mdl-menu__item-ripple-container"><span class="mdl-ripple"></span></span></a><a class="mdl-menu__item mdl-js-ripple-effect" href="https://www.e-olymp.com/en/logout" tabindex="-1" data-upgraded=",MaterialRipple">Logout<span class="mdl-menu__item-ripple-container"><span class="mdl-ripple"></span></span></a></div></div><a href="https://www.facebook.com/eolympcom" title="Follow us on Facebook" class="eo-header__link eo-header__link_darker"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#165153"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"></path></svg></a></nav></header><div class="eo-top-banner"><div class="eo-container"><a class="eo-top-banner__content" id="support-banner" href="https://fund.e-olymp.com/"><i class="material-icons">favorite</i> We need a little bit of your help to keep things running, click on this banner to learn more</a></div></div><main><div class="ribbon"></div><div class="eo-container"><div class="eo-title"><h1 class="eo-title__header">Submit solution</h1></div><form name="submit" method="post"><div class="eo-paper"><div class="eo-paper__content"><div class="form-group"><label class="control-label required" for="submit_problem">Problem</label><input type="text" id="submit_problem" name="submit[problem]" required="required" class="form-control" value="928"></div><div class="form-group"><label class="control-label required" for="submit_compiler">Programming Language</label>
+    &nbsp;
+    <small><a href="https://www.e-olymp.com/en/settings/preferences">Change default programming language</a></small><select id="submit_compiler" name="submit[compiler]" class="form-control"><option value="bf">BF 1.3</option><option value="csharp-dotnet">C# (microsoft .NET 5)</option><option value="csharp">C# (mono 5.20)</option><option value="gpp">C++ (gnu 10.2)</option><option value="d">D (gdc 10.2)</option><option value="go">Go 1.14</option><option value="haskell">Haskell (ghc 8.8)</option><option value="java">Java (openjdk 1.8)</option><option value="js">JavaScript (node 12.18)</option><option value="kotlin">Kotlin 1.4</option><option value="lua">Lua 5.1</option><option value="fpc">Pascal (fpc 3.2)</option><option value="php">PHP 7.4</option><option value="pypy">Python 3 (pypy 7.3)</option><option value="python" selected="selected">Python 3 (python 3.8)</option><option value="ruby">Ruby 2.4</option><option value="rust">Rust 1.46</option></select></div><div class="form-group"><label class="control-label required" for="submit_source">Source code</label><textarea id="submit_source" name="submit[source]" required="required" rows="30" class="form-control" spellcheck="false">_ = input()
+x = list(map(int, input().split()))</textarea></div><div class="form-group"><div class="checkbox"><label for="submit_useFileStreams"><input type="checkbox" id="submit_useFileStreams" name="submit[useFileStreams]" value="1"> Solution uses files for reading and writing</label></div></div><input type="hidden" id="submit__token" name="submit[_token]" value="M_kUtAF0Y_LNsV0CI16PkdpPl0UdtSl_7LnjcyYCCmg"></div><div class="eo-paper__actions"><input type="submit" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--primary" value="Submit" data-upgraded=",MaterialButton,MaterialRipple"><span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></div></div></form></div></main><footer class="eo-footer"><div class="eo-footer__copy">© E-Olymp 2021</div><nav class="eo-footer__nav"><a href="https://www.e-olymp.com/en/news/" class="eo-footer__link">News</a><a href="https://www.e-olymp.com/en/feedback/" class="eo-footer__link">Feedback</a><a href="https://www.e-olymp.com/en/help/" class="eo-footer__link">Help</a><a href="https://www.e-olymp.com/en/pages/about" class="eo-footer__link">About</a><a href="https://www.facebook.com/eolympcom" class="eo-footer__link" title="Follow us on Facebook">Facebook</a><a href="https://fund.e-olymp.com/" class="eo-footer__link">Fund</a><a href="https://blog.e-olymp.com/" class="eo-footer__link">Blog</a></nav><div class="eo-footer__spacer"></div><nav class="eo-footer__nav eo-language-switcher"><a href="javascript: void(0)" class="dropdown-toggle eo-footer__link" id="language-switcher">Language: English
+                </a><div class="mdl-menu__container is-upgraded"><div class="mdl-menu__outline mdl-menu--top-right"></div><div class="mdl-menu mdl-menu--top-right mdl-js-menu mdl-js-ripple-effect mdl-js-ripple-effect--ignore-events" for="language-switcher" data-upgraded=",MaterialMenu,MaterialRipple"><a class="mdl-menu__item mdl-js-ripple-effect" href="https://www.e-olymp.com/az/submissions/submit?problem=928" tabindex="-1" data-upgraded=",MaterialRipple">Azərbaycan<span class="mdl-menu__item-ripple-container"><span class="mdl-ripple"></span></span></a><a class="mdl-menu__item mdl-js-ripple-effect" href="https://www.e-olymp.com/en/submissions/submit?problem=928" tabindex="-1" data-upgraded=",MaterialRipple">English<span class="mdl-menu__item-ripple-container"><span class="mdl-ripple"></span></span></a><a class="mdl-menu__item mdl-js-ripple-effect" href="https://www.e-olymp.com/ru/submissions/submit?problem=928" tabindex="-1" data-upgraded=",MaterialRipple">Русский<span class="mdl-menu__item-ripple-container"><span class="mdl-ripple"></span></span></a><a class="mdl-menu__item mdl-js-ripple-effect" href="https://www.e-olymp.com/uk/submissions/submit?problem=928" tabindex="-1" data-upgraded=",MaterialRipple">Українська<span class="mdl-menu__item-ripple-container"><span class="mdl-ripple"></span></span></a></div></div></nav></footer><script src="Submit%20solution%20-%20E-Olymp_files/polyfill.js"></script><script>
+        MathJax = {
+            startup: { elements: document.querySelectorAll(".texable") },
+            tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
+        };
+    </script><script type="text/javascript" src="Submit%20solution%20-%20E-Olymp_files/tex-chtml.js" id="MathJax-script" async=""></script><script type="text/javascript" src="Submit%20solution%20-%20E-Olymp_files/app.js"></script><script type="text/javascript" src="Submit%20solution%20-%20E-Olymp_files/eolymp.js"></script><script type="text/javascript" src="Submit%20solution%20-%20E-Olymp_files/shortcuts.js"></script><script type="text/javascript">
+            olymp.shortcuts("", "http://www.e-olymp.com/en", {
+                "label.enter_group_id":   "Enter group ID",
+                "label.enter_problem_id": "Enter problem ID"
+            });
+        </script><script type="text/javascript">
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+            $('pre code, .source-code').each(function(i, block) {
+                hljs.highlightBlock(block);
+            });
+        });
+    </script><script type="text/javascript">
+        window.Translator.messages["label.inputfile"] = "Input";
+        window.Translator.messages["label.outputfile"] = "Output";
+        window.Translator.messages["label.note"] = "Note";
+        window.Translator.messages["label.example"] = "Example";
+        window.Translator.messages["label.examples"] = "Examples";
+        window.Translator.messages["label.scoring"] = "Scoring";
+    </script><script>
+    let initial = {problem: "", compiler: ""};
+
+    let templates = {
+        source: $("#submit_source"),
+        useFiles: $("#submit_useFileStreams"),
+        codes: {},
+        problem: "",
+        compiler: "",
+        request: null,
+        set: function(code) {
+            if (code.template) {
+                this.source.val(code.template || "");
+                this.useFiles.prop('checked', code.use_file_streams || false);
+            }
+        },
+        enable: function() {
+            this.source.attr('disabled', false);
+            this.useFiles.attr('disabled', false);
+        },
+        disable: function() {
+            this.source.attr('disabled', true);
+            this.useFiles.attr('disabled', true);
+        },
+        update: function(problem, compiler) {
+            if (problem === initial.problem && compiler === initial.compiler) {
+                this.set(initial);
+                return;
+            }
+
+            if (this.problem === problem && this.compiler === compiler) {
+                return;
+            }
+
+            if (this.problem === problem) {
+                this.set(this.codes[compiler] || {});
+                this.compiler = compiler;
+                return;
+            }
+
+            this.problem = problem;
+            this.compiler = compiler;
+
+            if (this.request != null) {
+                this.request.abort();
+            }
+
+            this.disable();
+
+            this.request = $.ajax({
+                dataType: "json",
+                url: "\/\/www.e-olymp.com\/en\/xhr\/problem-templates",
+                data: {problem: problem},
+                success: (function(data) {
+                    this.enable();
+
+                    if (problem === this.problem) {
+                        this.codes = data;
+                        this.set(this.codes[compiler] || {});
+                    }
+                }).bind(this),
+                error: (function() {
+                    this.enable();
+
+                    if (problem === this.problem) {
+                        this.codes = {};
+                        this.set({});
+                    }
+                }).bind(this),
+            });
+        }
+    };
+
+    $(function() {
+        let problem = $("#submit_problem");
+        let compiler = $("#submit_compiler");
+
+        if (templates.source.val() !== "") {
+            initial = {
+                problem: problem.val(),
+                compiler: compiler.val(),
+                template: templates.source.val(),
+                use_file_streams: templates.useFiles.prop('checked'),
+            };
+        }
+
+        templates.update(problem.val(), compiler.val());
+
+        $("#submit_problem,#submit_compiler").change(function(event) {
+            templates.update(problem.val(), compiler.val());
+        })
+    });
+
+</script>    
+
+</body><grammarly-mirror data-grammarly-shadow-root="true" class="cGcvT"></grammarly-mirror></html>

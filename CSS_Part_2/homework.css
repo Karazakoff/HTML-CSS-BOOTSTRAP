@@ -1,0 +1,58 @@
+#heading{
+  font-family: cursive;
+  text-align: center;
+  padding-top: 5%;
+  font-size: 40px;
+}
+table{
+  margin:auto;
+}
+td{
+  font-size: 100px;
+  text-align: center;
+  border: 3px solid white;
+  width: 150px;
+  height: 500px;
+}
+
+
+#one{
+  background: #03071e;
+  color: rgba(255, 255, 255, 0.2);
+}
+#two{
+  background: #370617;
+  color: rgba(255, 255, 255, 0.2);
+}
+#three{
+  background: #6a040f;
+  color: rgba(255, 255, 255, 0.2);
+}
+#four{
+  background: #9d0208;
+  color: rgba(255, 255, 255, 0.2);
+}
+#five{
+  background: #d00000;
+  color: rgba(255, 255, 255, 0.2);
+}
+#six{
+  background: #dc2f02;
+  color: rgba(255, 255, 255, 0.2);
+}
+#seven{
+  background: #e85d04;
+  color: rgba(255, 255, 255, 0.2);
+}
+#eight{
+  background: #f48c06;
+  color: rgba(255, 255, 255, 0.2);
+}
+#nine{
+  background: #faa307;
+  color: rgba(255, 255, 255, 0.2);
+}
+#ten{
+ background: #ffba08;
+ color: rgba(255, 255, 255, 0.2);
+}

@@ -1,0 +1,45 @@
+body{
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1jYU_Kc9kvFtT4vW79Iq3dV-QN5mzUXJCsA&usqp=CAU");
+  font-family:monospace;
+  text-align: center;
+  border-right: 70px groove white;
+  border-bottom: 70px ridge white ;
+  border-left: 70px ridge white ;
+  border-top: 70px groove white;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: white;
+}
+
+#content{
+  color: yellow;
+  font-size: 1.5em;
+  text-decoration: underline;
+  padding-top: 80px;
+}
+h1{
+  font-size: 4em;
+}
+h2{
+  font-size: 3em;
+  padding: 40px;
+}
+h3{
+  font-family:cursive;
+  font-size: 2em;
+}
+#sub{
+  border: 4px dotted green;
+  background: rgba(0,255,0, 0.15 );
+  border-radius: 25px;
+}
+input{
+  border: 4px dotted white;
+  color: white;
+  font-size: 1.5em;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1jYU_Kc9kvFtT4vW79Iq3dV-QN5mzUXJCsA&usqp=CAU");
+  width: 400px;
+  height: 50px;
+  text-align: center;
+  border-radius: 100px;
+}
